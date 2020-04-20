@@ -1,0 +1,10 @@
+Hello friends,
+The Corona Virus Tracking application I have developed is ready and I want to publish it for everyone to use.
+Application features:
+Detailed statistical information updated instantly
+Summary and detailed information reinforced with graphics
+Country rankings by virus status
+Calling the country you want
+Easily follow up with the watch list
+This app does not contain advertising and is not for profit.
+Link: https://drive.google.com/open?id=1rr1xlwa1_8vt8T3vzzF7bwsD_TX0McFb
