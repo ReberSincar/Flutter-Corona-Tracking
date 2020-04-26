@@ -119,7 +119,7 @@ class _MyHomePageState extends State<MyHomePage> {
       DeviceOrientation.portraitDown,
     ]);
     SizeConfig.getInstance(context);
-    return connectionStatus
+    return true//connectionStatus
         ? Scaffold(
             resizeToAvoidBottomInset: false,
             appBar: AppBar(

@@ -85,8 +85,11 @@ class _SearchPageState extends State<SearchPage> {
 
   getCountries() {
     services.fetchAllCountryData().then((result) {
+      /*
       result.removeRange(0, 8); //for api continent update
       result.removeRange(result.length-7, result.length); //for api continent update
+      */
+      result.removeAt(0);
       countryList = result;
     });
   }

@@ -26,16 +26,22 @@ class _SummaryCountryState extends State<SummaryCountry> {
     mostCasesList = new List<Country>();
     mostDeathsList = new List<Country>();
     services.fetchAllCountryData().then((result) {
+      /*
       result.removeRange(0, 8); //for api continent update
       result.removeRange(result.length-7, result.length); //for api continent update
+      */
+      result.removeAt(0);
       setState(() {
         mostCasesList = utils.sortByActive(result);
       });
     });
 
     services.fetchAllCountryData().then((result) {
+      /*
       result.removeRange(0, 8); //for api continent update
       result.removeRange(result.length-7, result.length); //for api continent update
+      */
+      result.removeAt(0);
       setState(() {
         mostDeathsList = utils.sortByDeaths(result);
       });
